@@ -2,11 +2,20 @@
 // If the number is even, return true
 // Otherwise, return false
 
-function myFunc(a){
-    if(a%2==0){
-        return true; }else{ 
-            false;
-        }
+function myFunc1(a){
+    if ( a % 2 == 0) {
+        return true; } else {
+            return false;
     }
+}
 
-console.log(myFunc(10));
+console.log("Value of 1st functions is "+ myFunc1(10));
+
+
+// Another Method 
+
+function myFunc2(a){
+    return a % 2 ===0;
+}
+
+console.log("Value of 2nd function is "+ myFunc2(10));
